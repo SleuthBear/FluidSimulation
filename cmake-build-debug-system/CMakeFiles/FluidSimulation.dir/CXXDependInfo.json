@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system",
+	"dir-cur-src" : "/Users/dylanbeaumont/CLionProjects/FluidSimulation",
+	"dir-top-bld" : "/Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system",
+	"dir-top-src" : "/Users/dylanbeaumont/CLionProjects/FluidSimulation",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/Users/dylanbeaumont/CLionProjects/FluidSimulation/sources",
+		"_deps/raylib-src/src",
+		"_deps/raylib-src/src/external/glfw/include",
+		"/System/Library/Frameworks/OpenGL.framework",
+		"/System/Library/Frameworks/Cocoa.framework",
+		"/System/Library/Frameworks/IOKit.framework",
+		"/System/Library/Frameworks/CoreVideo.framework"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/CMakeFiles/FluidSimulation.dir"
+}

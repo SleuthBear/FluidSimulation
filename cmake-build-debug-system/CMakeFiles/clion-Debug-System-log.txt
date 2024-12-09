@@ -1,0 +1,26 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -D CMAKE_C_COMPILER=/opt/homebrew/opt/llvm/bin/clang -D CMAKE_CXX_COMPILER=/opt/homebrew/opt/llvm/bin/clang++ -D "OpenMP_CXX_FLAGS=-Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include" -D OpenMP_CXX_LIB_NAMES=omp -D OpenMP_omp_LIBRARY=/opt/homebrew/opt/libomp/lib/libomp.dylib -S /Users/dylanbeaumont/CLionProjects/FluidSimulation -B /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system
+-- Populating raylib
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-subbuild
+[0/7] Performing update step for 'raylib-populate'
+fatal: unable to access 'https://github.com/raysan5/raylib.git/': Could not resolve host: github.com
+CMake Error at /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake:8 (execute_process):
+  execute_process last command failed
+Call Stack (most recent call first):
+  /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake:76 (do_fetch)
+
+
+FAILED: raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update 
+cd /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-src && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -Dcan_fetch=YES -P /Users/dylanbeaumont/CLionProjects/FluidSimulation/cmake-build-debug-system/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitupdate.cmake
+ninja: build stopped: subcommand failed.
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1714 (message):
+  Build step for raylib failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:1854 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake:2081 (FetchContent_Populate)
+  CMakeLists.txt:25 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
